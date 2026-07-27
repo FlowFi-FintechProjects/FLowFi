@@ -1,0 +1,22 @@
+# Dependencies
+node_modules/
+
+# Environment & Secrets (Database URLs, JWT secrets, Payment gateway keys)
+.env
+.env.*
+
+# Python Virtual Environments & Cache (if backend is Python/FastAPI/Django)
+venv/
+env/
+ENV/
+__pycache__/
+*.py[cod]
+*$py.class
+*.sqlite3
+
+# Build & Logs
+dist/
+build/
+logs/
+*.log
+npm-debug.log*
